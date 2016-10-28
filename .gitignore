@@ -1,0 +1,6 @@
+Bitcraft.Tools.GitCommitHash/bin/Debug/
+Bitcraft.Tools.GitCommitHash/bin/Release/
+Bitcraft.Tools.GitCommitHash/obj/Debug/
+Bitcraft.Tools.GitCommitHash/obj/Release/
+*.xproj.user
+project.lock.json
