@@ -14,16 +14,67 @@ A NuGet package is available here: https://www.nuget.org/packages/Bitcraft.Tools
 
 Hereafter is the list of supported arguments:
 
-Argument | Valid values | Default | Description
----|---|---|---
---namespace<br>--ns | Valid C# namespace name | (nothing) | If namespace argument is not provided, the static class is generated without namespace.
---class | Valid C# class name | GitCommitHash | The name of the static class that contains the git commit hash.
---output | Valid filename | GitCommitHash.cs | The output source code file. If a relative filename is provided, it is relative to the current directory.<br>This uses `Directory.GetCurrentDirectory()`.
---hash | **short** or **long** | short | The short form looks like this '9df9734', the long form is '9df97340b237a2af5988e1865cd874f134d2a660'.
---access-modifier | **public** or **internal** | public | The access modifier of the generated static class.
---indent<br>--indenting | **space**, **spaces**, **tab** or **tabs** | space | The characters used to indent the generated code.
---indent-size<br>--indenting-size | Integer greater than or equal to zero | 4 | The number of indent character per level of indentation.
---line-ending | **crlf** or **lf** | lf | The character(s) used for line ending of the generated code.
+`--namespace`, `--ns`
+
+Valid values | Default | Description
+---|---|---
+Valid C# namespace name | (nothing) | If namespace argument is not provided, the static class is generated without namespace.
+
+---
+
+`--class`
+
+Valid values | Default | Description
+---|---|---
+Valid C# class name | GitCommitHash | The name of the static class that contains the git commit hash.
+
+---
+
+`--output`
+
+Valid values | Default | Description
+---|---|---
+Valid filename | GitCommitHash.cs | The output source code file. If a relative filename is provided, it is relative to the current directory.<br>This uses `Directory.GetCurrentDirectory()`.
+
+---
+
+`--hash`
+
+Valid values | Default | Description
+---|---|---
+**short** or **long** | short | The short form looks like this '9df9734', the long form is '9df97340b237a2af5988e1865cd874f134d2a660'.
+
+---
+
+`--access-modifier`
+
+Valid values | Default | Description
+---|---|---
+**public** or **internal** | public | The access modifier of the generated static class.
+
+---
+
+`--indent`, `--indenting`
+
+Valid values | Default | Description
+---|---|---
+**space**, **spaces**, **tab** or **tabs** | space | The characters used to indent the generated code.
+
+---
+
+`--indent-size`, `--indenting-size`
+
+Valid values | Default | Description
+---|---|---
+Integer greater than or equal to zero | 4 | The number of indent character per level of indentation.
+
+---
+
+`--line-ending`
+
+Valid values | Default | Description
+---|---|---
+**crlf** or **lf** | lf | The character(s) used for line ending of the generated code.
 
 ### Example
 
