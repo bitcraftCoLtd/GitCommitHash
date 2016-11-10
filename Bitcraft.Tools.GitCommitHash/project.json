@@ -16,7 +16,7 @@
     "packOptions": {
         "owners": [ "bitcraft Corporation" ],
         "projectUrl": "https://github.com/bitcraftCoLtd/GitCommitHash",
-        "iconUrl": "https://gravatar.com/avatar/f2d0a801ac3439079f2f9b6e7e588f06?s=64",
+        "iconUrl": "https://www.bitcraft.co.jp/images/logo_dark_64x64_32bits.png",
         "licenseUrl": "https://github.com/bitcraftCoLtd/GitCommitHash/blob/master/LICENSE",
         "tags": [ "bitcraft", "tool", "git", "commit", "hash" ]
     },
